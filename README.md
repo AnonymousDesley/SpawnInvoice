@@ -82,3 +82,4 @@ The project starts with a base English translation file:
   "total": "Total",
   "notes": "Notes"
 }
+```
