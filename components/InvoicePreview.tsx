@@ -70,15 +70,15 @@ export default function InvoicePreview({ invoice }: InvoicePreviewProps) {
             </div>
 
             {/* Invoice Paper */}
-            <div ref={previewRef} className="bg-white p-8 rounded-lg shadow-xl min-h-[600px] text-stone-800 border-t-8 border-primary">
+            <div ref={previewRef} className="bg-[#ffffff] p-8 rounded-lg shadow-xl min-h-[600px] text-[#1c1917] border-t-8 border-[#F5F5DC]">
                 <div className="flex justify-between items-start mb-12">
                     <div>
-                        <h1 className="text-4xl font-bold tracking-wide text-stone-900">{t('invoice')}</h1>
-                        <p className="text-stone-500 mt-1">#{invoice.id}</p>
+                        <h1 className="text-4xl font-bold tracking-wide text-[#1c1917]">{t('invoice')}</h1>
+                        <p className="text-[#78716c] mt-1">#{invoice.id}</p>
                     </div>
                     <div className="text-right">
-                        <p className="font-semibold text-lg">{invoice.sellerName || "Seller Name"}</p>
-                        <p className="whitespace-pre-wrap text-stone-500 text-sm max-w-[200px] ml-auto">
+                        <p className="font-semibold text-lg text-[#1c1917]">{invoice.sellerName || "Seller Name"}</p>
+                        <p className="whitespace-pre-wrap text-[#78716c] text-sm max-w-[200px] ml-auto">
                             {invoice.sellerDetails || "Address\nDetails"}
                         </p>
                     </div>
@@ -86,38 +86,38 @@ export default function InvoicePreview({ invoice }: InvoicePreviewProps) {
 
                 <div className="grid grid-cols-2 gap-8 mb-12">
                     <div>
-                        <h3 className="text-xs uppercase tracking-wider font-bold text-stone-400 mb-2">{t('client')}</h3>
-                        <p className="font-semibold text-lg">{invoice.clientName || "Client Name"}</p>
-                        <p className="text-stone-500 text-sm">{invoice.clientCountry}</p>
+                        <h3 className="text-xs uppercase tracking-wider font-bold text-[#a8a29e] mb-2">{t('client')}</h3>
+                        <p className="font-semibold text-lg text-[#1c1917]">{invoice.clientName || "Client Name"}</p>
+                        <p className="text-[#78716c] text-sm">{invoice.clientCountry}</p>
                     </div>
                     <div className="text-right space-y-2">
                         <div>
-                            <span className="text-stone-400 text-sm mr-4">{t('date')}:</span>
-                            <span className="font-medium">{formatDate(invoice.date)}</span>
+                            <span className="text-[#a8a29e] text-sm mr-4">{t('date')}:</span>
+                            <span className="font-medium text-[#1c1917]">{formatDate(invoice.date)}</span>
                         </div>
                         <div>
-                            <span className="text-stone-400 text-sm mr-4">{t('dueDate')}:</span>
-                            <span className="font-medium">{formatDate(invoice.dueDate)}</span>
+                            <span className="text-[#a8a29e] text-sm mr-4">{t('dueDate')}:</span>
+                            <span className="font-medium text-[#1c1917]">{formatDate(invoice.dueDate)}</span>
                         </div>
                     </div>
                 </div>
 
                 <table className="w-full mb-8">
                     <thead>
-                        <tr className="border-b-2 border-primary/20">
-                            <th className="text-left py-3 font-semibold text-sm uppercase tracking-wider">{t('item')}</th>
-                            <th className="text-right py-3 font-semibold text-sm uppercase tracking-wider">{t('quantity')}</th>
-                            <th className="text-right py-3 font-semibold text-sm uppercase tracking-wider">{t('price')}</th>
-                            <th className="text-right py-3 font-semibold text-sm uppercase tracking-wider">{t('total')}</th>
+                        <tr className="border-b-2 border-[#F5F5DC]">
+                            <th className="text-left py-3 font-semibold text-sm uppercase tracking-wider text-[#1c1917]">{t('item')}</th>
+                            <th className="text-right py-3 font-semibold text-sm uppercase tracking-wider text-[#1c1917]">{t('quantity')}</th>
+                            <th className="text-right py-3 font-semibold text-sm uppercase tracking-wider text-[#1c1917]">{t('price')}</th>
+                            <th className="text-right py-3 font-semibold text-sm uppercase tracking-wider text-[#1c1917]">{t('total')}</th>
                         </tr>
                     </thead>
                     <tbody>
                         {invoice.items.map(item => (
-                            <tr key={item.id} className="border-b border-stone-100">
-                                <td className="py-4 text-stone-700">{item.description || "Item"}</td>
-                                <td className="py-4 text-right text-stone-600">{item.quantity}</td>
-                                <td className="py-4 text-right text-stone-600">{formatCurrency(item.price)}</td>
-                                <td className="py-4 text-right font-medium">{formatCurrency(item.quantity * item.price)}</td>
+                            <tr key={item.id} className="border-b border-[#f5f5f4]">
+                                <td className="py-4 text-[#44403c]">{item.description || "Item"}</td>
+                                <td className="py-4 text-right text-[#57534e]">{item.quantity}</td>
+                                <td className="py-4 text-right text-[#57534e]">{formatCurrency(item.price)}</td>
+                                <td className="py-4 text-right font-medium text-[#1c1917]">{formatCurrency(item.quantity * item.price)}</td>
                             </tr>
                         ))}
                     </tbody>
@@ -125,15 +125,15 @@ export default function InvoicePreview({ invoice }: InvoicePreviewProps) {
 
                 <div className="flex justify-end">
                     <div className="w-1/2 space-y-3">
-                        <div className="flex justify-between text-stone-500">
+                        <div className="flex justify-between text-[#78716c]">
                             <span>{t('subtotal')}</span>
                             <span>{formatCurrency(subtotal)}</span>
                         </div>
-                        <div className="flex justify-between text-stone-500">
+                        <div className="flex justify-between text-[#78716c]">
                             <span>{t('tax')} ({invoice.taxRate}%)</span>
                             <span>{formatCurrency(taxAmount)}</span>
                         </div>
-                        <div className="flex justify-between font-bold text-xl text-stone-900 border-t border-stone-200 pt-3">
+                        <div className="flex justify-between font-bold text-xl text-[#1c1917] border-t border-[#e7e5e4] pt-3">
                             <span>{t('total')}</span>
                             <span>{formatCurrency(total)}</span>
                         </div>
@@ -141,13 +141,13 @@ export default function InvoicePreview({ invoice }: InvoicePreviewProps) {
                 </div>
 
                 {invoice.notes && (
-                    <div className="mt-12 pt-6 border-t border-stone-100">
-                        <h4 className="text-sm font-bold text-stone-400 mb-2 uppercase tracking-wide">{t('notes')}</h4>
-                        <p className="text-stone-600 text-sm">{invoice.notes}</p>
+                    <div className="mt-12 pt-6 border-t border-[#e7e5e4]">
+                        <h4 className="text-sm font-bold text-[#a8a29e] mb-2 uppercase tracking-wide">{t('notes')}</h4>
+                        <p className="text-[#57534e] text-sm">{invoice.notes}</p>
                     </div>
                 )}
 
-                <footer className="mt-16 text-center text-xs text-stone-300">
+                <footer className="mt-16 text-center text-xs text-[#d6d3d1]">
                     Generated with SpawnInvoice
                 </footer>
             </div>
