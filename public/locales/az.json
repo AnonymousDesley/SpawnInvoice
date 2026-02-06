@@ -1,0 +1,14 @@
+{
+  "invoice": "FAKTURA",
+  "seller": "Satıcı",
+  "client": "Müştəri",
+  "item": "Məhsul",
+  "quantity": "Miq.",
+  "price": "Qiymət",
+  "total": "Cəmi",
+  "subtotal": "Ara cəm",
+  "tax": "Vergi",
+  "notes": "Qeydlər",
+  "date": "Tarix",
+  "dueDate": "Son ödəniş tarixi"
+}

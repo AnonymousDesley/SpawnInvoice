@@ -1,0 +1,14 @@
+{
+  "invoice": "ANFONEB",
+  "seller": "Gwerthwr",
+  "client": "Cleient",
+  "item": "Eitem",
+  "quantity": "Nifer",
+  "price": "Pris",
+  "total": "Cyfanswm",
+  "subtotal": "Is-gyfanswm",
+  "tax": "Treth",
+  "notes": "Nodiadau",
+  "date": "Dyddiad",
+  "dueDate": "Dyddiad dyledus"
+}

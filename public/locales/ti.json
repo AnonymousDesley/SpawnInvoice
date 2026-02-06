@@ -1,0 +1,14 @@
+{
+  "invoice": "ደረሰኝ",
+  "seller": "ሻጢ",
+  "client": "ዓሚል",
+  "item": "ኣቕሓ",
+  "quantity": "ብዝሒ",
+  "price": "ዋጋ",
+  "total": "ጠቕላላ",
+  "subtotal": "ንኡስ ድምር",
+  "tax": "ግብሪ",
+  "notes": "መዘኻኸሪታት",
+  "date": "ዕለት",
+  "dueDate": "ናይ ምኽፋል ዕለት"
+}

@@ -1,0 +1,15 @@
+version: 1
+checksums:
+  98e078d81f5c42818207aeab8442d8b7:
+    invoice: 32b94f40491f33dffc9a4fd964da403f
+    seller: 54eb787c0a33bc5d5d56f12608acb374
+    client: 59db31dfaf498183184421a0a1725711
+    item: 59130c3d4d998b7cd613ea4f69d60a66
+    quantity: 075e3b4bc55475fc4991e94f5ee9bc50
+    price: 6e3258d4cf5835177d174a5259a9cfd6
+    total: f60dc0a14e9b1bace656c644de25de5b
+    subtotal: ae69fc06016ffe52ecf38e8855f027e2
+    tax: d3fcfe0d706125207807c386716724ee
+    notes: 93c7ef9bc767f51fbe360afcf6b1fecb
+    date: 56f41c5d30a76295bb087b20b7bee4c3
+    dueDate: 4706b88beaaf7fee56f273e7d1d056dd

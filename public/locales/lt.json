@@ -1,0 +1,14 @@
+{
+  "invoice": "SĄSKAITA FAKTŪRA",
+  "seller": "Pardavėjas",
+  "client": "Klientas",
+  "item": "Prekė",
+  "quantity": "Kiekis",
+  "price": "Kaina",
+  "total": "Iš viso",
+  "subtotal": "Tarpinė suma",
+  "tax": "Mokestis",
+  "notes": "Pastabos",
+  "date": "Data",
+  "dueDate": "Apmokėjimo terminas"
+}

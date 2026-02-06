@@ -2,14 +2,13 @@
 
 import React, { useState, useEffect } from "react";
 import { InvoiceData, InvoiceItem, CurrencyCode } from "@/lib/types";
-import { COUNTRIES, DEFAULT_COUNTRY } from "@/lib/constants";
-import { useTranslation } from "react-i18next";
-import "@/lib/i18n"; // Init i18n
+import { DEFAULT_COUNTRY } from "@/lib/constants";
 import InvoiceForm from "./InvoiceForm";
 import InvoicePreview from "./InvoicePreview";
+import Header from "./Header";
 
 export default function InvoiceGenerator() {
-    const { t, i18n } = useTranslation();
+    const [mounted, setMounted] = useState(false);
 
     const [invoice, setInvoice] = useState<InvoiceData>({
         id: "INV-001",
@@ -21,46 +20,37 @@ export default function InvoiceGenerator() {
         clientCountry: DEFAULT_COUNTRY.name, // Default
         items: [{ id: "1", description: "Service 1", quantity: 1, price: 100 }],
         taxRate: 10,
+        discount: 0,
+        shipping: 0,
         currency: DEFAULT_COUNTRY.currency as CurrencyCode, // Default
         notes: "",
+        orientation: 'portrait',
     });
 
-    const [selectedCountryCode, setSelectedCountryCode] = useState(DEFAULT_COUNTRY.code);
-
-    // Handle Country Change
+    // Initial Setup - wait for client mount
     useEffect(() => {
-        const country = COUNTRIES.find(c => c.code === selectedCountryCode);
-        if (country) {
-            // Update Language
-            i18n.changeLanguage(country.lang);
-            // Update Currency in Invoice
-            setInvoice(prev => ({
-                ...prev,
-                clientCountry: country.name,
-                currency: country.currency as CurrencyCode,
-            }));
-        }
-    }, [selectedCountryCode, i18n]);
+        setMounted(true);
+    }, []);
+
+    if (!mounted) {
+        return <div className="p-8 flex justify-center text-stone-500">Loading invoice generator...</div>;
+    }
 
     return (
-        <div className="max-w-7xl mx-auto p-4 md:p-8 grid grid-cols-1 lg:grid-cols-2 gap-8">
-            <div className="space-y-6">
-                <header className="mb-8">
-                    <h1 className="text-3xl font-bold tracking-tight text-primary-foreground">SpawnInvoice</h1>
-                    <p className="text-gray-500">AI-Powered Multilingual Invoicing</p>
-                </header>
+        <div className="min-h-screen bg-stone-50/50">
+            <Header />
+            <main className="max-w-7xl mx-auto p-4 md:p-8 grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div className="space-y-6">
+                    <InvoiceForm
+                        invoice={invoice}
+                        setInvoice={setInvoice}
+                    />
+                </div>
 
-                <InvoiceForm
-                    invoice={invoice}
-                    setInvoice={setInvoice}
-                    selectedCountryCode={selectedCountryCode}
-                    setSelectedCountryCode={setSelectedCountryCode}
-                />
-            </div>
-
-            <div className="sticky top-8 space-y-4">
-                <InvoicePreview invoice={invoice} />
-            </div>
+                <div className="sticky top-24 space-y-4 h-fit">
+                    <InvoicePreview invoice={invoice} setInvoice={setInvoice} />
+                </div>
+            </main>
         </div>
     );
 }

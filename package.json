@@ -6,18 +6,20 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "translate": "cross-env LINGODOTDEV_API_KEY=api_ce0zlrsggg84wv6s986jaqtn npx lingo.dev run"
   },
   "dependencies": {
+    "@lingo.dev/compiler": "^0.3.6",
     "clsx": "^2.1.1",
+    "cross-env": "^10.1.0",
     "date-fns": "^4.1.0",
     "html2pdf.js": "^0.14.0",
-    "i18next": "^25.8.4",
     "lucide-react": "^0.563.0",
     "next": "16.1.6",
+    "node-fetch": "^3.3.2",
     "react": "19.2.3",
     "react-dom": "19.2.3",
-    "react-i18next": "^16.5.4",
     "tailwind-merge": "^3.4.0"
   },
   "devDependencies": {

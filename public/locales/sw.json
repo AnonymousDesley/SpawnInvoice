@@ -1,0 +1,14 @@
+{
+  "invoice": "Ankara",
+  "seller": "Muuzaji",
+  "client": "Mteja",
+  "item": "Bidhaa",
+  "quantity": "Idadi",
+  "price": "Bei",
+  "total": "Jumla",
+  "subtotal": "Jumla ndogo",
+  "tax": "Kodi",
+  "notes": "Maelezo",
+  "date": "Tarehe",
+  "dueDate": "Tarehe ya kulipa"
+}

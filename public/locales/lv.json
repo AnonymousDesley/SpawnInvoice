@@ -1,0 +1,14 @@
+{
+  "invoice": "RĒĶINS",
+  "seller": "Pārdevējs",
+  "client": "Klients",
+  "item": "Prece",
+  "quantity": "Daudz.",
+  "price": "Cena",
+  "total": "Kopā",
+  "subtotal": "Starpsumma",
+  "tax": "Nodoklis",
+  "notes": "Piezīmes",
+  "date": "Datums",
+  "dueDate": "Apmaksas termiņš"
+}

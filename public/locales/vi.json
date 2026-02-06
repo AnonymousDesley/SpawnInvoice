@@ -1,0 +1,14 @@
+{
+  "invoice": "HÓA ĐƠN",
+  "seller": "Người bán",
+  "client": "Khách hàng",
+  "item": "Mặt hàng",
+  "quantity": "Số lượng",
+  "price": "Đơn giá",
+  "total": "Tổng cộng",
+  "subtotal": "Tạm tính",
+  "tax": "Thuế",
+  "notes": "Ghi chú",
+  "date": "Ngày",
+  "dueDate": "Hạn thanh toán"
+}

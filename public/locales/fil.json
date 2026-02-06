@@ -1,0 +1,14 @@
+{
+  "invoice": "Invoice",
+  "seller": "Nagbebenta",
+  "client": "Kliyente",
+  "item": "Item",
+  "quantity": "Dami",
+  "price": "Presyo",
+  "total": "Kabuuan",
+  "subtotal": "Subtotal",
+  "tax": "Buwis",
+  "notes": "Mga tala",
+  "date": "Petsa",
+  "dueDate": "Petsa ng pagbabayad"
+}

@@ -1,0 +1,14 @@
+{
+  "invoice": "FAKTURA",
+  "seller": "Selger",
+  "client": "Klient",
+  "item": "Vare",
+  "quantity": "Ant.",
+  "price": "Pris",
+  "total": "Totalt",
+  "subtotal": "Delsum",
+  "tax": "Mva",
+  "notes": "Notater",
+  "date": "Dato",
+  "dueDate": "Forfallsdato"
+}

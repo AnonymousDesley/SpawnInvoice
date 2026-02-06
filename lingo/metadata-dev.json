@@ -1,0 +1,1120 @@
+{
+  "entries": {
+    "94dbf261e91f": {
+      "type": "content",
+      "sourceText": "Invoice Details",
+      "context": {
+        "componentName": "InvoiceForm",
+        "filePath": "components/InvoiceForm.tsx"
+      },
+      "hash": "94dbf261e91f",
+      "location": {
+        "filePath": "components/InvoiceForm.tsx",
+        "line": 91,
+        "column": 16
+      }
+    },
+    "24a60f6efeec": {
+      "type": "content",
+      "sourceText": "From (Seller)",
+      "context": {
+        "componentName": "InvoiceForm",
+        "filePath": "components/InvoiceForm.tsx"
+      },
+      "hash": "24a60f6efeec",
+      "location": {
+        "filePath": "components/InvoiceForm.tsx",
+        "line": 105,
+        "column": 20
+      }
+    },
+    "0db347c45380": {
+      "type": "attribute",
+      "sourceText": "Seller Name",
+      "context": {
+        "attributeName": "placeholder",
+        "componentName": "InvoiceForm",
+        "filePath": "components/InvoiceForm.tsx"
+      },
+      "hash": "0db347c45380",
+      "location": {
+        "filePath": "components/InvoiceForm.tsx",
+        "line": 106,
+        "column": 20
+      }
+    },
+    "20eace1a9826": {
+      "type": "attribute",
+      "sourceText": "Address & Details",
+      "context": {
+        "attributeName": "placeholder",
+        "componentName": "InvoiceForm",
+        "filePath": "components/InvoiceForm.tsx"
+      },
+      "hash": "20eace1a9826",
+      "location": {
+        "filePath": "components/InvoiceForm.tsx",
+        "line": 112,
+        "column": 20
+      }
+    },
+    "b15ae310ecb9": {
+      "type": "content",
+      "sourceText": "To (Client)",
+      "context": {
+        "componentName": "InvoiceForm",
+        "filePath": "components/InvoiceForm.tsx"
+      },
+      "hash": "b15ae310ecb9",
+      "location": {
+        "filePath": "components/InvoiceForm.tsx",
+        "line": 121,
+        "column": 20
+      }
+    },
+    "f6659e43d8bb": {
+      "type": "attribute",
+      "sourceText": "Client Name",
+      "context": {
+        "attributeName": "placeholder",
+        "componentName": "InvoiceForm",
+        "filePath": "components/InvoiceForm.tsx"
+      },
+      "hash": "f6659e43d8bb",
+      "location": {
+        "filePath": "components/InvoiceForm.tsx",
+        "line": 122,
+        "column": 20
+      }
+    },
+    "4a7ff3f1ac6e": {
+      "type": "attribute",
+      "sourceText": "Client Country",
+      "context": {
+        "attributeName": "placeholder",
+        "componentName": "InvoiceForm",
+        "filePath": "components/InvoiceForm.tsx"
+      },
+      "hash": "4a7ff3f1ac6e",
+      "location": {
+        "filePath": "components/InvoiceForm.tsx",
+        "line": 129,
+        "column": 20
+      }
+    },
+    "83215d5b8d11": {
+      "type": "content",
+      "sourceText": "Currency",
+      "context": {
+        "componentName": "InvoiceForm",
+        "filePath": "components/InvoiceForm.tsx"
+      },
+      "hash": "83215d5b8d11",
+      "location": {
+        "filePath": "components/InvoiceForm.tsx",
+        "line": 138,
+        "column": 28
+      }
+    },
+    "66220b5f171e": {
+      "type": "content",
+      "sourceText": "Language",
+      "context": {
+        "componentName": "InvoiceForm",
+        "filePath": "components/InvoiceForm.tsx"
+      },
+      "hash": "66220b5f171e",
+      "location": {
+        "filePath": "components/InvoiceForm.tsx",
+        "line": 154,
+        "column": 28
+      }
+    },
+    "7ea5836ada85": {
+      "type": "content",
+      "sourceText": "Invoice ID",
+      "context": {
+        "componentName": "InvoiceForm",
+        "filePath": "components/InvoiceForm.tsx"
+      },
+      "hash": "7ea5836ada85",
+      "location": {
+        "filePath": "components/InvoiceForm.tsx",
+        "line": 169,
+        "column": 24
+      }
+    },
+    "4e5898b6fabd": {
+      "type": "attribute",
+      "sourceText": "INV-001",
+      "context": {
+        "attributeName": "placeholder",
+        "componentName": "InvoiceForm",
+        "filePath": "components/InvoiceForm.tsx"
+      },
+      "hash": "4e5898b6fabd",
+      "location": {
+        "filePath": "components/InvoiceForm.tsx",
+        "line": 170,
+        "column": 24
+      }
+    },
+    "5713b1e6e3d7": {
+      "type": "content",
+      "sourceText": "Items",
+      "context": {
+        "componentName": "InvoiceForm",
+        "filePath": "components/InvoiceForm.tsx"
+      },
+      "hash": "5713b1e6e3d7",
+      "location": {
+        "filePath": "components/InvoiceForm.tsx",
+        "line": 196,
+        "column": 16
+      }
+    },
+    "29346019e73a": {
+      "type": "content",
+      "sourceText": "Add Item",
+      "context": {
+        "componentName": "InvoiceForm",
+        "filePath": "components/InvoiceForm.tsx"
+      },
+      "hash": "29346019e73a",
+      "location": {
+        "filePath": "components/InvoiceForm.tsx",
+        "line": 232,
+        "column": 16
+      }
+    },
+    "028685c5bd59": {
+      "type": "content",
+      "sourceText": "Adjustments",
+      "context": {
+        "componentName": "InvoiceForm",
+        "filePath": "components/InvoiceForm.tsx"
+      },
+      "hash": "028685c5bd59",
+      "location": {
+        "filePath": "components/InvoiceForm.tsx",
+        "line": 242,
+        "column": 16
+      }
+    },
+    "44a0ba2360f9": {
+      "type": "content",
+      "sourceText": "Tax",
+      "context": {
+        "componentName": "InvoiceForm",
+        "filePath": "components/InvoiceForm.tsx"
+      },
+      "hash": "44a0ba2360f9",
+      "location": {
+        "filePath": "components/InvoiceForm.tsx",
+        "line": 246,
+        "column": 24
+      }
+    },
+    "dc43570a85a8": {
+      "type": "content",
+      "sourceText": "%",
+      "context": {
+        "componentName": "InvoiceForm",
+        "filePath": "components/InvoiceForm.tsx"
+      },
+      "hash": "dc43570a85a8",
+      "location": {
+        "filePath": "components/InvoiceForm.tsx",
+        "line": 268,
+        "column": 28
+      }
+    },
+    "b3cd3234ab80": {
+      "type": "content",
+      "sourceText": "Discount",
+      "context": {
+        "componentName": "InvoiceForm",
+        "filePath": "components/InvoiceForm.tsx"
+      },
+      "hash": "b3cd3234ab80",
+      "location": {
+        "filePath": "components/InvoiceForm.tsx",
+        "line": 260,
+        "column": 24
+      }
+    },
+    "ad10e3ad4961": {
+      "type": "content",
+      "sourceText": "Shipping",
+      "context": {
+        "componentName": "InvoiceForm",
+        "filePath": "components/InvoiceForm.tsx"
+      },
+      "hash": "ad10e3ad4961",
+      "location": {
+        "filePath": "components/InvoiceForm.tsx",
+        "line": 274,
+        "column": 24
+      }
+    },
+    "e97808d11a29": {
+      "type": "content",
+      "sourceText": "Notes",
+      "context": {
+        "componentName": "InvoiceForm",
+        "filePath": "components/InvoiceForm.tsx"
+      },
+      "hash": "e97808d11a29",
+      "location": {
+        "filePath": "components/InvoiceForm.tsx",
+        "line": 289,
+        "column": 16
+      }
+    },
+    "f475d3f6f347": {
+      "type": "content",
+      "sourceText": "Loading invoice generator...",
+      "context": {
+        "componentName": "InvoiceGenerator",
+        "filePath": "components/InvoiceGenerator.tsx"
+      },
+      "hash": "f475d3f6f347",
+      "location": {
+        "filePath": "components/InvoiceGenerator.tsx",
+        "line": 36,
+        "column": 15
+      }
+    },
+    "15a2d8f86c4a": {
+      "type": "content",
+      "sourceText": "SpawnInvoice",
+      "context": {
+        "componentName": "InvoiceGenerator",
+        "filePath": "components/InvoiceGenerator.tsx"
+      },
+      "hash": "15a2d8f86c4a",
+      "location": {
+        "filePath": "components/InvoiceGenerator.tsx",
+        "line": 41,
+        "column": 20
+      }
+    },
+    "36a2d53782fa": {
+      "type": "content",
+      "sourceText": "AI-Powered Multilingual Invoicing",
+      "context": {
+        "componentName": "InvoiceGenerator",
+        "filePath": "components/InvoiceGenerator.tsx"
+      },
+      "hash": "36a2d53782fa",
+      "location": {
+        "filePath": "components/InvoiceGenerator.tsx",
+        "line": 42,
+        "column": 20
+      }
+    },
+    "f09f19de12e7": {
+      "type": "content",
+      "sourceText": "Download PDF",
+      "context": {
+        "componentName": "InvoicePreview",
+        "filePath": "components/InvoicePreview.tsx"
+      },
+      "hash": "f09f19de12e7",
+      "location": {
+        "filePath": "components/InvoicePreview.tsx",
+        "line": 118,
+        "column": 47
+      }
+    },
+    "9ad22c73eb94": {
+      "type": "content",
+      "sourceText": "Invoice",
+      "context": {
+        "componentName": "InvoicePreview",
+        "filePath": "components/InvoicePreview.tsx"
+      },
+      "hash": "9ad22c73eb94",
+      "location": {
+        "filePath": "components/InvoicePreview.tsx",
+        "line": 148,
+        "column": 28
+      }
+    },
+    "548df29c5799": {
+      "type": "content",
+      "sourceText": "'#'{expression0}",
+      "context": {
+        "componentName": "InvoicePreview",
+        "filePath": "components/InvoicePreview.tsx"
+      },
+      "hash": "548df29c5799",
+      "location": {
+        "filePath": "components/InvoicePreview.tsx",
+        "line": 76,
+        "column": 24
+      }
+    },
+    "2d95720c6cb9": {
+      "type": "content",
+      "sourceText": "Client",
+      "context": {
+        "componentName": "InvoicePreview",
+        "filePath": "components/InvoicePreview.tsx"
+      },
+      "hash": "2d95720c6cb9",
+      "location": {
+        "filePath": "components/InvoicePreview.tsx",
+        "line": 94,
+        "column": 24
+      }
+    },
+    "d663492f29dd": {
+      "type": "content",
+      "sourceText": "Date:",
+      "context": {
+        "componentName": "InvoicePreview",
+        "filePath": "components/InvoicePreview.tsx"
+      },
+      "hash": "d663492f29dd",
+      "location": {
+        "filePath": "components/InvoicePreview.tsx",
+        "line": 100,
+        "column": 28
+      }
+    },
+    "47e3bef2a799": {
+      "type": "content",
+      "sourceText": "Due Date:",
+      "context": {
+        "componentName": "InvoicePreview",
+        "filePath": "components/InvoicePreview.tsx"
+      },
+      "hash": "47e3bef2a799",
+      "location": {
+        "filePath": "components/InvoicePreview.tsx",
+        "line": 104,
+        "column": 28
+      }
+    },
+    "960bf5c57742": {
+      "type": "content",
+      "sourceText": "Item",
+      "context": {
+        "componentName": "InvoicePreview",
+        "filePath": "components/InvoicePreview.tsx"
+      },
+      "hash": "960bf5c57742",
+      "location": {
+        "filePath": "components/InvoicePreview.tsx",
+        "line": 113,
+        "column": 28
+      }
+    },
+    "a12db033fe24": {
+      "type": "content",
+      "sourceText": "Quantity",
+      "context": {
+        "componentName": "InvoicePreview",
+        "filePath": "components/InvoicePreview.tsx"
+      },
+      "hash": "a12db033fe24",
+      "location": {
+        "filePath": "components/InvoicePreview.tsx",
+        "line": 114,
+        "column": 28
+      }
+    },
+    "89ac0bdc4677": {
+      "type": "content",
+      "sourceText": "Price",
+      "context": {
+        "componentName": "InvoicePreview",
+        "filePath": "components/InvoicePreview.tsx"
+      },
+      "hash": "89ac0bdc4677",
+      "location": {
+        "filePath": "components/InvoicePreview.tsx",
+        "line": 186,
+        "column": 32
+      }
+    },
+    "90e1248bc0d4": {
+      "type": "content",
+      "sourceText": "Total",
+      "context": {
+        "componentName": "InvoicePreview",
+        "filePath": "components/InvoicePreview.tsx"
+      },
+      "hash": "90e1248bc0d4",
+      "location": {
+        "filePath": "components/InvoicePreview.tsx",
+        "line": 229,
+        "column": 32
+      }
+    },
+    "272be431d6b5": {
+      "type": "content",
+      "sourceText": "Subtotal",
+      "context": {
+        "componentName": "InvoicePreview",
+        "filePath": "components/InvoicePreview.tsx"
+      },
+      "hash": "272be431d6b5",
+      "location": {
+        "filePath": "components/InvoicePreview.tsx",
+        "line": 205,
+        "column": 32
+      }
+    },
+    "7d9dd9342f0c": {
+      "type": "content",
+      "sourceText": "Discount ({expression0}%)",
+      "context": {
+        "componentName": "InvoicePreview",
+        "filePath": "components/InvoicePreview.tsx"
+      },
+      "hash": "7d9dd9342f0c",
+      "location": {
+        "filePath": "components/InvoicePreview.tsx",
+        "line": 211,
+        "column": 36
+      }
+    },
+    "951641870897": {
+      "type": "content",
+      "sourceText": "-{expression0}",
+      "context": {
+        "componentName": "InvoicePreview",
+        "filePath": "components/InvoicePreview.tsx"
+      },
+      "hash": "951641870897",
+      "location": {
+        "filePath": "components/InvoicePreview.tsx",
+        "line": 212,
+        "column": 36
+      }
+    },
+    "d77e89aaa1a1": {
+      "type": "content",
+      "sourceText": "Tax ({expression0}%)",
+      "context": {
+        "componentName": "InvoicePreview",
+        "filePath": "components/InvoicePreview.tsx"
+      },
+      "hash": "d77e89aaa1a1",
+      "location": {
+        "filePath": "components/InvoicePreview.tsx",
+        "line": 217,
+        "column": 32
+      }
+    },
+    "690bda1ce921": {
+      "type": "content",
+      "sourceText": "Shipping",
+      "context": {
+        "componentName": "InvoicePreview",
+        "filePath": "components/InvoicePreview.tsx"
+      },
+      "hash": "690bda1ce921",
+      "location": {
+        "filePath": "components/InvoicePreview.tsx",
+        "line": 223,
+        "column": 36
+      }
+    },
+    "77efec9ca8bb": {
+      "type": "content",
+      "sourceText": "Notes",
+      "context": {
+        "componentName": "InvoicePreview",
+        "filePath": "components/InvoicePreview.tsx"
+      },
+      "hash": "77efec9ca8bb",
+      "location": {
+        "filePath": "components/InvoicePreview.tsx",
+        "line": 237,
+        "column": 28
+      }
+    },
+    "b7c97b6d9d38": {
+      "type": "content",
+      "sourceText": "Generated with SpawnInvoice",
+      "context": {
+        "componentName": "InvoicePreview",
+        "filePath": "components/InvoicePreview.tsx"
+      },
+      "hash": "b7c97b6d9d38",
+      "location": {
+        "filePath": "components/InvoicePreview.tsx",
+        "line": 171,
+        "column": 16
+      }
+    },
+    "75e6dc12a549": {
+      "type": "metadata",
+      "sourceText": "SpawnInvoice - AI Global Invoice Generator",
+      "context": {
+        "fieldPath": "title",
+        "filePath": "app/layout.tsx"
+      },
+      "hash": "75e6dc12a549",
+      "location": {
+        "filePath": "app/layout.tsx",
+        "line": 10,
+        "column": 9
+      }
+    },
+    "c74947733e7c": {
+      "type": "metadata",
+      "sourceText": "Generate localized invoices in seconds.",
+      "context": {
+        "fieldPath": "description",
+        "filePath": "app/layout.tsx"
+      },
+      "hash": "c74947733e7c",
+      "location": {
+        "filePath": "app/layout.tsx",
+        "line": 11,
+        "column": 15
+      }
+    },
+    "d5561219d034": {
+      "type": "content",
+      "sourceText": "#",
+      "context": {
+        "componentName": "InvoicePreview",
+        "filePath": "components/InvoicePreview.tsx"
+      },
+      "hash": "d5561219d034",
+      "location": {
+        "filePath": "components/InvoicePreview.tsx",
+        "line": 150,
+        "column": 32
+      }
+    },
+    "6fb72d4ff01e": {
+      "type": "content",
+      "sourceText": "Seller Name",
+      "context": {
+        "componentName": "InvoicePreview",
+        "filePath": "components/InvoicePreview.tsx"
+      },
+      "hash": "6fb72d4ff01e",
+      "location": {
+        "filePath": "components/InvoicePreview.tsx",
+        "line": 154,
+        "column": 106
+      }
+    },
+    "a0cdb6a99964": {
+      "type": "content",
+      "sourceText": "Address details",
+      "context": {
+        "componentName": "InvoicePreview",
+        "filePath": "components/InvoicePreview.tsx"
+      },
+      "hash": "a0cdb6a99964",
+      "location": {
+        "filePath": "components/InvoicePreview.tsx",
+        "line": 156,
+        "column": 58
+      }
+    },
+    "9c4b1a128592": {
+      "type": "content",
+      "sourceText": "Client Name",
+      "context": {
+        "componentName": "InvoicePreview",
+        "filePath": "components/InvoicePreview.tsx"
+      },
+      "hash": "9c4b1a128592",
+      "location": {
+        "filePath": "components/InvoicePreview.tsx",
+        "line": 165,
+        "column": 103
+      }
+    },
+    "d8c829eee1ca": {
+      "type": "content",
+      "sourceText": "{expression0} Translate Content (AI)",
+      "context": {
+        "componentName": "InvoiceForm",
+        "filePath": "components/InvoiceForm.tsx"
+      },
+      "hash": "d8c829eee1ca",
+      "location": {
+        "filePath": "components/InvoiceForm.tsx",
+        "line": 92,
+        "column": 20
+      }
+    },
+    "9ac66c3a79b5": {
+      "type": "content",
+      "sourceText": "S",
+      "context": {
+        "componentName": "Header",
+        "filePath": "components/Header.tsx"
+      },
+      "hash": "9ac66c3a79b5",
+      "location": {
+        "filePath": "components/Header.tsx",
+        "line": 17,
+        "column": 20
+      }
+    },
+    "2ce1e7107c05": {
+      "type": "content",
+      "sourceText": "SpawnInvoice",
+      "context": {
+        "componentName": "Header",
+        "filePath": "components/Header.tsx"
+      },
+      "hash": "2ce1e7107c05",
+      "location": {
+        "filePath": "components/Header.tsx",
+        "line": 20,
+        "column": 20
+      }
+    },
+    "24365118cf29": {
+      "type": "attribute",
+      "sourceText": "Settings",
+      "context": {
+        "attributeName": "aria-label",
+        "componentName": "Header",
+        "filePath": "components/Header.tsx"
+      },
+      "hash": "24365118cf29",
+      "location": {
+        "filePath": "components/Header.tsx",
+        "line": 26,
+        "column": 20
+      }
+    },
+    "f897b4eae2be": {
+      "type": "content",
+      "sourceText": "App Settings",
+      "context": {
+        "componentName": "Header",
+        "filePath": "components/Header.tsx"
+      },
+      "hash": "f897b4eae2be",
+      "location": {
+        "filePath": "components/Header.tsx",
+        "line": 42,
+        "column": 36
+      }
+    },
+    "ac10581c4246": {
+      "type": "content",
+      "sourceText": "Interface Language",
+      "context": {
+        "componentName": "Header",
+        "filePath": "components/Header.tsx"
+      },
+      "hash": "ac10581c4246",
+      "location": {
+        "filePath": "components/Header.tsx",
+        "line": 50,
+        "column": 36
+      }
+    },
+    "a5a3144a889a": {
+      "type": "content",
+      "sourceText": "Localizations powered by Lingo AI",
+      "context": {
+        "componentName": "Header",
+        "filePath": "components/Header.tsx"
+      },
+      "hash": "a5a3144a889a",
+      "location": {
+        "filePath": "components/Header.tsx",
+        "line": 74,
+        "column": 32
+      }
+    },
+    "11b3cb7fbbf2": {
+      "type": "metadata",
+      "sourceText": "SpawnInvoice - Professional AI Invoicing",
+      "context": {
+        "fieldPath": "title",
+        "filePath": "app/layout.tsx"
+      },
+      "hash": "11b3cb7fbbf2",
+      "location": {
+        "filePath": "app/layout.tsx",
+        "line": 10,
+        "column": 9
+      }
+    },
+    "70adce512d6b": {
+      "type": "metadata",
+      "sourceText": "Next-generation global invoice generator powered by Lingo AI.",
+      "context": {
+        "fieldPath": "description",
+        "filePath": "app/layout.tsx"
+      },
+      "hash": "70adce512d6b",
+      "location": {
+        "filePath": "app/layout.tsx",
+        "line": 11,
+        "column": 15
+      }
+    },
+    "f675413e80da": {
+      "type": "content",
+      "sourceText": "Orientation",
+      "context": {
+        "componentName": "InvoiceForm",
+        "filePath": "components/InvoiceForm.tsx"
+      },
+      "hash": "f675413e80da",
+      "location": {
+        "filePath": "components/InvoiceForm.tsx",
+        "line": 150,
+        "column": 28
+      }
+    },
+    "906edc732402": {
+      "type": "content",
+      "sourceText": "Portrait",
+      "context": {
+        "componentName": "InvoiceForm",
+        "filePath": "components/InvoiceForm.tsx"
+      },
+      "hash": "906edc732402",
+      "location": {
+        "filePath": "components/InvoiceForm.tsx",
+        "line": 152,
+        "column": 32
+      }
+    },
+    "befe6b534fef": {
+      "type": "content",
+      "sourceText": "Landscape",
+      "context": {
+        "componentName": "InvoiceForm",
+        "filePath": "components/InvoiceForm.tsx"
+      },
+      "hash": "befe6b534fef",
+      "location": {
+        "filePath": "components/InvoiceForm.tsx",
+        "line": 161,
+        "column": 32
+      }
+    },
+    "cd34c2dd7297": {
+      "type": "content",
+      "sourceText": "Translate Invoice To",
+      "context": {
+        "componentName": "InvoiceForm",
+        "filePath": "components/InvoiceForm.tsx"
+      },
+      "hash": "cd34c2dd7297",
+      "location": {
+        "filePath": "components/InvoiceForm.tsx",
+        "line": 175,
+        "column": 24
+      }
+    },
+    "58d70f72ef07": {
+      "type": "content",
+      "sourceText": "{expression0} Translate",
+      "context": {
+        "componentName": "InvoiceForm",
+        "filePath": "components/InvoiceForm.tsx"
+      },
+      "hash": "58d70f72ef07",
+      "location": {
+        "filePath": "components/InvoiceForm.tsx",
+        "line": 186,
+        "column": 28
+      }
+    },
+    "363dbc889d9d": {
+      "type": "content",
+      "sourceText": "ID:",
+      "context": {
+        "componentName": "InvoiceForm",
+        "filePath": "components/InvoiceForm.tsx"
+      },
+      "hash": "363dbc889d9d",
+      "location": {
+        "filePath": "components/InvoiceForm.tsx",
+        "line": 93,
+        "column": 20
+      }
+    },
+    "046027bb8982": {
+      "type": "content",
+      "sourceText": "Syncing translations...",
+      "context": {
+        "componentName": "InvoicePreview",
+        "filePath": "components/InvoicePreview.tsx"
+      },
+      "hash": "046027bb8982",
+      "location": {
+        "filePath": "components/InvoicePreview.tsx",
+        "line": 128,
+        "column": 24
+      }
+    },
+    "f535f3f1e4e0": {
+      "type": "content",
+      "sourceText": "Billed To",
+      "context": {
+        "componentName": "InvoicePreview",
+        "filePath": "components/InvoicePreview.tsx"
+      },
+      "hash": "f535f3f1e4e0",
+      "location": {
+        "filePath": "components/InvoicePreview.tsx",
+        "line": 164,
+        "column": 32
+      }
+    },
+    "cffe2a0c0102": {
+      "type": "content",
+      "sourceText": "Date Issued",
+      "context": {
+        "componentName": "InvoicePreview",
+        "filePath": "components/InvoicePreview.tsx"
+      },
+      "hash": "cffe2a0c0102",
+      "location": {
+        "filePath": "components/InvoicePreview.tsx",
+        "line": 171,
+        "column": 32
+      }
+    },
+    "01a1cbe54d19": {
+      "type": "content",
+      "sourceText": "Due Date",
+      "context": {
+        "componentName": "InvoicePreview",
+        "filePath": "components/InvoicePreview.tsx"
+      },
+      "hash": "01a1cbe54d19",
+      "location": {
+        "filePath": "components/InvoicePreview.tsx",
+        "line": 175,
+        "column": 32
+      }
+    },
+    "b5b5a44199af": {
+      "type": "content",
+      "sourceText": "Description",
+      "context": {
+        "componentName": "InvoicePreview",
+        "filePath": "components/InvoicePreview.tsx"
+      },
+      "hash": "b5b5a44199af",
+      "location": {
+        "filePath": "components/InvoicePreview.tsx",
+        "line": 184,
+        "column": 32
+      }
+    },
+    "5e272a7f9446": {
+      "type": "content",
+      "sourceText": "Qty",
+      "context": {
+        "componentName": "InvoicePreview",
+        "filePath": "components/InvoicePreview.tsx"
+      },
+      "hash": "5e272a7f9446",
+      "location": {
+        "filePath": "components/InvoicePreview.tsx",
+        "line": 185,
+        "column": 32
+      }
+    },
+    "3b99c3ed111d": {
+      "type": "content",
+      "sourceText": "SpawnInvoice",
+      "context": {
+        "componentName": "InvoicePreview",
+        "filePath": "components/InvoicePreview.tsx"
+      },
+      "hash": "3b99c3ed111d",
+      "location": {
+        "filePath": "components/InvoicePreview.tsx",
+        "line": 243,
+        "column": 24
+      }
+    },
+    "6e87f7b52314": {
+      "type": "content",
+      "sourceText": "Generated with AI Technology",
+      "context": {
+        "componentName": "InvoicePreview",
+        "filePath": "components/InvoicePreview.tsx"
+      },
+      "hash": "6e87f7b52314",
+      "location": {
+        "filePath": "components/InvoicePreview.tsx",
+        "line": 244,
+        "column": 24
+      }
+    },
+    "c15c55632716": {
+      "type": "content",
+      "sourceText": "Page 1 of 1",
+      "context": {
+        "componentName": "InvoicePreview",
+        "filePath": "components/InvoicePreview.tsx"
+      },
+      "hash": "c15c55632716",
+      "location": {
+        "filePath": "components/InvoicePreview.tsx",
+        "line": 245,
+        "column": 24
+      }
+    },
+    "82856d36cb50": {
+      "type": "content",
+      "sourceText": "pawnInvoice",
+      "context": {
+        "componentName": "Header",
+        "filePath": "components/Header.tsx"
+      },
+      "hash": "82856d36cb50",
+      "location": {
+        "filePath": "components/Header.tsx",
+        "line": 20,
+        "column": 20
+      }
+    },
+    "14c070d0b7f8": {
+      "type": "content",
+      "sourceText": "Localizations powered by Lingo.dev",
+      "context": {
+        "componentName": "Header",
+        "filePath": "components/Header.tsx"
+      },
+      "hash": "14c070d0b7f8",
+      "location": {
+        "filePath": "components/Header.tsx",
+        "line": 74,
+        "column": 32
+      }
+    },
+    "e0d6b19e6493": {
+      "type": "content",
+      "sourceText": "INV ID:",
+      "context": {
+        "componentName": "InvoiceForm",
+        "filePath": "components/InvoiceForm.tsx"
+      },
+      "hash": "e0d6b19e6493",
+      "location": {
+        "filePath": "components/InvoiceForm.tsx",
+        "line": 93,
+        "column": 20
+      }
+    },
+    "a899073398e5": {
+      "type": "content",
+      "sourceText": "AI Magic Tools",
+      "context": {
+        "componentName": "InvoiceForm",
+        "filePath": "components/InvoiceForm.tsx"
+      },
+      "hash": "a899073398e5",
+      "location": {
+        "filePath": "components/InvoiceForm.tsx",
+        "line": 160,
+        "column": 20
+      }
+    },
+    "08948465eac7": {
+      "type": "content",
+      "sourceText": "Invoice Target Language",
+      "context": {
+        "componentName": "InvoiceForm",
+        "filePath": "components/InvoiceForm.tsx"
+      },
+      "hash": "08948465eac7",
+      "location": {
+        "filePath": "components/InvoiceForm.tsx",
+        "line": 163,
+        "column": 28
+      }
+    },
+    "fe40493e5bba": {
+      "type": "content",
+      "sourceText": "{expression0} Translate Content",
+      "context": {
+        "componentName": "InvoiceForm",
+        "filePath": "components/InvoiceForm.tsx"
+      },
+      "hash": "fe40493e5bba",
+      "location": {
+        "filePath": "components/InvoiceForm.tsx",
+        "line": 174,
+        "column": 32
+      }
+    },
+    "07ca1e34f04e": {
+      "type": "content",
+      "sourceText": "Use AI to translate all dynamic content fields automatically.",
+      "context": {
+        "componentName": "InvoiceForm",
+        "filePath": "components/InvoiceForm.tsx"
+      },
+      "hash": "07ca1e34f04e",
+      "location": {
+        "filePath": "components/InvoiceForm.tsx",
+        "line": 189,
+        "column": 24
+      }
+    },
+    "b912c445121f": {
+      "type": "content",
+      "sourceText": "Portrait",
+      "context": {
+        "componentName": "InvoicePreview",
+        "filePath": "components/InvoicePreview.tsx"
+      },
+      "hash": "b912c445121f",
+      "location": {
+        "filePath": "components/InvoicePreview.tsx",
+        "line": 87,
+        "column": 20
+      }
+    },
+    "54f86eddd66a": {
+      "type": "content",
+      "sourceText": "Landscape",
+      "context": {
+        "componentName": "InvoicePreview",
+        "filePath": "components/InvoicePreview.tsx"
+      },
+      "hash": "54f86eddd66a",
+      "location": {
+        "filePath": "components/InvoicePreview.tsx",
+        "line": 96,
+        "column": 20
+      }
+    },
+    "bfa670d0eec6": {
+      "type": "content",
+      "sourceText": "Share",
+      "context": {
+        "componentName": "InvoicePreview",
+        "filePath": "components/InvoicePreview.tsx"
+      },
+      "hash": "bfa670d0eec6",
+      "location": {
+        "filePath": "components/InvoicePreview.tsx",
+        "line": 112,
+        "column": 45
+      }
+    }
+  },
+  "stats": {
+    "totalEntries": 79,
+    "lastUpdated": "2026-02-06T12:29:32.736Z"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "invoice": "Faktura",
+  "seller": "Säljare",
+  "client": "Kund",
+  "item": "Artikel",
+  "quantity": "Antal",
+  "price": "Pris",
+  "total": "Totalt",
+  "subtotal": "Delsumma",
+  "tax": "Moms",
+  "notes": "Anteckningar",
+  "date": "Datum",
+  "dueDate": "Förfallodatum"
+}

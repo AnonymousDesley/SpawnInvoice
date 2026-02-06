@@ -1,0 +1,14 @@
+{
+  "invoice": "Számla",
+  "seller": "Eladó",
+  "client": "Ügyfél",
+  "item": "Tétel",
+  "quantity": "Menny.",
+  "price": "Ár",
+  "total": "Összesen",
+  "subtotal": "Részösszeg",
+  "tax": "Áfa",
+  "notes": "Megjegyzések",
+  "date": "Dátum",
+  "dueDate": "Fizetési határidő"
+}

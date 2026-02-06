@@ -1,0 +1,14 @@
+{
+  "invoice": "FAKTUR",
+  "seller": "Penjual",
+  "client": "Klien",
+  "item": "Item",
+  "quantity": "Jml",
+  "price": "Harga",
+  "total": "Total",
+  "subtotal": "Subtotal",
+  "tax": "Pajak",
+  "notes": "Catatan",
+  "date": "Tanggal",
+  "dueDate": "Jatuh tempo"
+}

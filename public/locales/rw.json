@@ -1,0 +1,14 @@
+{
+  "invoice": "IFAKITIRI",
+  "seller": "Umucuruzi",
+  "client": "Umukiriya",
+  "item": "Ikintu",
+  "quantity": "Umubare",
+  "price": "Igiciro",
+  "total": "Igiteranyo",
+  "subtotal": "Igiteranyo mbere y'umusoro",
+  "tax": "Umusoro",
+  "notes": "Ibisobanuro",
+  "date": "Itariki",
+  "dueDate": "Itariki yo kwishyura"
+}

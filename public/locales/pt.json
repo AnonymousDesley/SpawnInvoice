@@ -1,0 +1,14 @@
+{
+  "invoice": "Fatura",
+  "seller": "Vendedor",
+  "client": "Cliente",
+  "item": "Item",
+  "quantity": "Qtd",
+  "price": "Preço",
+  "total": "Total",
+  "subtotal": "Subtotal",
+  "tax": "Imposto",
+  "notes": "Notas",
+  "date": "Data",
+  "dueDate": "Data de vencimento"
+}

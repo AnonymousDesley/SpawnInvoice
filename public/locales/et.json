@@ -1,0 +1,14 @@
+{
+  "invoice": "ARVE",
+  "seller": "Müüja",
+  "client": "Klient",
+  "item": "Toode",
+  "quantity": "Kogus",
+  "price": "Hind",
+  "total": "Kokku",
+  "subtotal": "Vahesumma",
+  "tax": "Maks",
+  "notes": "Märkused",
+  "date": "Kuupäev",
+  "dueDate": "Maksetähtaeg"
+}

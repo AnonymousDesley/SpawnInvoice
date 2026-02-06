@@ -1,0 +1,14 @@
+{
+  "invoice": "FACTURĂ",
+  "seller": "Vânzător",
+  "client": "Client",
+  "item": "Articol",
+  "quantity": "Cant.",
+  "price": "Preț",
+  "total": "Total",
+  "subtotal": "Subtotal",
+  "tax": "Taxă",
+  "notes": "Note",
+  "date": "Data",
+  "dueDate": "Data scadenței"
+}

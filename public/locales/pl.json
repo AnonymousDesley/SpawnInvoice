@@ -1,0 +1,14 @@
+{
+  "invoice": "Faktura",
+  "seller": "Sprzedawca",
+  "client": "Klient",
+  "item": "Pozycja",
+  "quantity": "Ilość",
+  "price": "Cena",
+  "total": "Razem",
+  "subtotal": "Suma częściowa",
+  "tax": "Podatek",
+  "notes": "Notatki",
+  "date": "Data",
+  "dueDate": "Termin płatności"
+}

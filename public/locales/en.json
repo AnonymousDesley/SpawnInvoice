@@ -1,0 +1,14 @@
+{
+    "invoice": "INVOICE",
+    "seller": "Seller",
+    "client": "Client",
+    "item": "Item",
+    "quantity": "Qty",
+    "price": "Price",
+    "total": "Total",
+    "subtotal": "Subtotal",
+    "tax": "Tax",
+    "notes": "Notes",
+    "date": "Date",
+    "dueDate": "Due Date"
+}

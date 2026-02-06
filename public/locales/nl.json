@@ -1,0 +1,14 @@
+{
+  "invoice": "FACTUUR",
+  "seller": "Verkoper",
+  "client": "Klant",
+  "item": "Artikel",
+  "quantity": "Aantal",
+  "price": "Prijs",
+  "total": "Totaal",
+  "subtotal": "Subtotaal",
+  "tax": "BTW",
+  "notes": "Opmerkingen",
+  "date": "Datum",
+  "dueDate": "Vervaldatum"
+}

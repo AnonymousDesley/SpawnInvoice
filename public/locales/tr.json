@@ -1,0 +1,14 @@
+{
+  "invoice": "FATURA",
+  "seller": "Satıcı",
+  "client": "Müşteri",
+  "item": "Kalem",
+  "quantity": "Adet",
+  "price": "Fiyat",
+  "total": "Toplam",
+  "subtotal": "Ara toplam",
+  "tax": "Vergi",
+  "notes": "Notlar",
+  "date": "Tarih",
+  "dueDate": "Vade tarihi"
+}

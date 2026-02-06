@@ -1,0 +1,14 @@
+{
+  "invoice": "FAKTÚRA",
+  "seller": "Predávajúci",
+  "client": "Klient",
+  "item": "Položka",
+  "quantity": "Mn.",
+  "price": "Cena",
+  "total": "Celkom",
+  "subtotal": "Medzisúčet",
+  "tax": "Daň",
+  "notes": "Poznámky",
+  "date": "Dátum",
+  "dueDate": "Dátum splatnosti"
+}

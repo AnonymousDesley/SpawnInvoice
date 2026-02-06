@@ -1,0 +1,14 @@
+{
+  "invoice": "INVOIS",
+  "seller": "Penjual",
+  "client": "Pelanggan",
+  "item": "Item",
+  "quantity": "Kuantiti",
+  "price": "Harga",
+  "total": "Jumlah",
+  "subtotal": "Subjumlah",
+  "tax": "Cukai",
+  "notes": "Nota",
+  "date": "Tarikh",
+  "dueDate": "Tarikh akhir"
+}

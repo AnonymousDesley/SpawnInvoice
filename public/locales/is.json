@@ -1,0 +1,14 @@
+{
+  "invoice": "REIKNINGUR",
+  "seller": "Seljandi",
+  "client": "Viðskiptavinur",
+  "item": "Vara",
+  "quantity": "Magn",
+  "price": "Verð",
+  "total": "Samtals",
+  "subtotal": "Millisamtala",
+  "tax": "Skattur",
+  "notes": "Athugasemdir",
+  "date": "Dagsetning",
+  "dueDate": "Gjalddagi"
+}

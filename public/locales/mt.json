@@ -1,0 +1,14 @@
+{
+  "invoice": "Fattura",
+  "seller": "Bejjiegħ",
+  "client": "Klijent",
+  "item": "Oġġett",
+  "quantity": "Kwantità",
+  "price": "Prezz",
+  "total": "Total",
+  "subtotal": "Subtotal",
+  "tax": "Taxxa",
+  "notes": "Noti",
+  "date": "Data",
+  "dueDate": "Data ta' skadenza"
+}

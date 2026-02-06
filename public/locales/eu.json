@@ -1,0 +1,14 @@
+{
+  "invoice": "FAKTURA",
+  "seller": "Saltzailea",
+  "client": "Bezeroa",
+  "item": "Elementua",
+  "quantity": "Kant.",
+  "price": "Prezioa",
+  "total": "Guztira",
+  "subtotal": "Azpiguztira",
+  "tax": "Zerga",
+  "notes": "Oharrak",
+  "date": "Data",
+  "dueDate": "Ordainketa-data"
+}

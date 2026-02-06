@@ -1,0 +1,14 @@
+{
+  "invoice": "ደረሰኝ",
+  "seller": "ሻጭ",
+  "client": "ደንበኛ",
+  "item": "እቃ",
+  "quantity": "ብዛት",
+  "price": "ዋጋ",
+  "total": "ጠቅላላ",
+  "subtotal": "ንዑስ ድምር",
+  "tax": "ግብር",
+  "notes": "ማስታወሻዎች",
+  "date": "ቀን",
+  "dueDate": "የመክፈያ ቀን"
+}

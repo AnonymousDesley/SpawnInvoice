@@ -1,0 +1,14 @@
+{
+  "invoice": "LASKU",
+  "seller": "Myyjä",
+  "client": "Asiakas",
+  "item": "Tuote",
+  "quantity": "Määrä",
+  "price": "Hinta",
+  "total": "Yhteensä",
+  "subtotal": "Välisumma",
+  "tax": "Vero",
+  "notes": "Huomautukset",
+  "date": "Päivämäärä",
+  "dueDate": "Eräpäivä"
+}

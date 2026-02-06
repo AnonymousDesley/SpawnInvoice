@@ -1,0 +1,14 @@
+{
+  "invoice": "SONRASC",
+  "seller": "Díoltóir",
+  "client": "Cliant",
+  "item": "Mír",
+  "quantity": "Cainníocht",
+  "price": "Praghas",
+  "total": "Iomlán",
+  "subtotal": "Fo-iomlán",
+  "tax": "Cáin",
+  "notes": "Nótaí",
+  "date": "Dáta",
+  "dueDate": "Dáta dlite"
+}

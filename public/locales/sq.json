@@ -1,0 +1,14 @@
+{
+  "invoice": "Faturë",
+  "seller": "Shitës",
+  "client": "Klient",
+  "item": "Artikull",
+  "quantity": "Sasi",
+  "price": "Çmim",
+  "total": "Totali",
+  "subtotal": "Nëntotali",
+  "tax": "Taksë",
+  "notes": "Shënime",
+  "date": "Data",
+  "dueDate": "Data e skadencës"
+}

@@ -1,0 +1,14 @@
+{
+  "invoice": "FAKTURA",
+  "seller": "Prodávající",
+  "client": "Klient",
+  "item": "Položka",
+  "quantity": "Množ.",
+  "price": "Cena",
+  "total": "Celkem",
+  "subtotal": "Mezisoučet",
+  "tax": "DPH",
+  "notes": "Poznámky",
+  "date": "Datum",
+  "dueDate": "Datum splatnosti"
+}

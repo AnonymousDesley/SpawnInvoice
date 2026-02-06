@@ -1,0 +1,14 @@
+{
+  "invoice": "請求書",
+  "seller": "販売者",
+  "client": "顧客",
+  "item": "品目",
+  "quantity": "数量",
+  "price": "単価",
+  "total": "合計",
+  "subtotal": "小計",
+  "tax": "税",
+  "notes": "備考",
+  "date": "日付",
+  "dueDate": "支払期限"
+}

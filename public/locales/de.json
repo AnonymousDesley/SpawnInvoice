@@ -1,0 +1,14 @@
+{
+  "invoice": "RECHNUNG",
+  "seller": "Verkäufer",
+  "client": "Kunde",
+  "item": "Artikel",
+  "quantity": "Menge",
+  "price": "Preis",
+  "total": "Gesamt",
+  "subtotal": "Zwischensumme",
+  "tax": "Steuer",
+  "notes": "Notizen",
+  "date": "Datum",
+  "dueDate": "Fälligkeitsdatum"
+}

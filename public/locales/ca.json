@@ -1,0 +1,14 @@
+{
+  "invoice": "FACTURA",
+  "seller": "Venedor",
+  "client": "Client",
+  "item": "Article",
+  "quantity": "Qtat.",
+  "price": "Preu",
+  "total": "Total",
+  "subtotal": "Subtotal",
+  "tax": "Impostos",
+  "notes": "Notes",
+  "date": "Data",
+  "dueDate": "Data de venciment"
+}

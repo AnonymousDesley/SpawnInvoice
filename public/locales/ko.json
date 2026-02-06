@@ -1,0 +1,14 @@
+{
+  "invoice": "청구서",
+  "seller": "판매자",
+  "client": "고객",
+  "item": "항목",
+  "quantity": "수량",
+  "price": "가격",
+  "total": "합계",
+  "subtotal": "소계",
+  "tax": "세금",
+  "notes": "비고",
+  "date": "날짜",
+  "dueDate": "납부 기한"
+}

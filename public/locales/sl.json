@@ -1,0 +1,14 @@
+{
+  "invoice": "Račun",
+  "seller": "Prodajalec",
+  "client": "Stranka",
+  "item": "Artikel",
+  "quantity": "Kol.",
+  "price": "Cena",
+  "total": "Skupaj",
+  "subtotal": "Vmesna vsota",
+  "tax": "Davek",
+  "notes": "Opombe",
+  "date": "Datum",
+  "dueDate": "Rok plačila"
+}

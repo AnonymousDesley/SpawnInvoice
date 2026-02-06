@@ -17,6 +17,9 @@ export interface InvoiceData {
   clientCountry: string; // For localization
   items: InvoiceItem[];
   taxRate: number;
+  discount: number; // Percentage
+  shipping: number; // Fixed amount
   currency: CurrencyCode;
   notes: string;
+  orientation: 'portrait' | 'landscape';
 }

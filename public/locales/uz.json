@@ -1,0 +1,14 @@
+{
+  "invoice": "HISOB-FAKTURA",
+  "seller": "Sotuvchi",
+  "client": "Mijoz",
+  "item": "Mahsulot",
+  "quantity": "Soni",
+  "price": "Narxi",
+  "total": "Jami",
+  "subtotal": "Oraliq jami",
+  "tax": "Soliq",
+  "notes": "Izohlar",
+  "date": "Sana",
+  "dueDate": "To'lov muddati"
+}

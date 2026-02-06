@@ -1,0 +1,14 @@
+{
+  "invoice": "I-INVOYISI",
+  "seller": "Umthengisi",
+  "client": "Iklayenti",
+  "item": "Into",
+  "quantity": "Inani",
+  "price": "Intengo",
+  "total": "Isamba",
+  "subtotal": "Isamba esingaphansi",
+  "tax": "Intela",
+  "notes": "Amanothi",
+  "date": "Usuku",
+  "dueDate": "Usuku lokukhokha"
+}
