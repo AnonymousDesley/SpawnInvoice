@@ -157,7 +157,7 @@ export default function InvoiceForm({ invoice, setInvoice }: InvoiceFormProps) {
                     <Languages size={120} />
                 </div>
                 <div className="relative z-10">
-                    <h3 className="text-sm font-black uppercase tracking-[0.2em] text-stone-400 mb-4">AI Magic Tools</h3>
+                    <h3 className="text-sm font-black uppercase tracking-[0.2em] text-stone-400 mb-4">Translate Invoice</h3>
                     <div className="space-y-4">
                         <div>
                             <label className="block text-[10px] font-black uppercase tracking-widest text-stone-500 mb-2">Invoice Target Language</label>

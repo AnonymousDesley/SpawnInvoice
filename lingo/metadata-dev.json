@@ -1111,10 +1111,24 @@
         "line": 112,
         "column": 45
       }
+    },
+    "5dd2f3baf577": {
+      "type": "content",
+      "sourceText": "Translate Invoice",
+      "context": {
+        "componentName": "InvoiceForm",
+        "filePath": "components/InvoiceForm.tsx"
+      },
+      "hash": "5dd2f3baf577",
+      "location": {
+        "filePath": "components/InvoiceForm.tsx",
+        "line": 160,
+        "column": 20
+      }
     }
   },
   "stats": {
-    "totalEntries": 79,
-    "lastUpdated": "2026-02-06T12:29:32.736Z"
+    "totalEntries": 80,
+    "lastUpdated": "2026-02-06T12:50:02.548Z"
   }
 }

@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { Settings, X, ChevronDown, Check, Globe } from "lucide-react";
 import { LANGUAGES } from "../lib/constants";
-import { useLingoContext, type LocaleCode } from "@lingo.dev/compiler/react";
+import { useLingoContext } from "@lingo.dev/compiler/react";
 import { cn } from "../lib/utils";
 
 export default function Header() {
@@ -55,7 +55,7 @@ export default function Header() {
                                             <button
                                                 key={lang.code}
                                                 onClick={() => {
-                                                    setLocale(lang.code as LocaleCode);
+                                                    setLocale(lang.code as any);
                                                     setIsSettingsOpen(false);
                                                 }}
                                                 className={cn(
