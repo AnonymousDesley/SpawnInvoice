@@ -1,11 +1,11 @@
 "use client";
 
 import React from "react";
-import { InvoiceData, InvoiceItem, CurrencyCode } from "@/lib/types";
-import { COUNTRIES, LANGUAGES, CURRENCIES } from "@/lib/constants";
+import { InvoiceData, InvoiceItem, CurrencyCode } from "../lib/types";
+import { COUNTRIES, LANGUAGES, CURRENCIES } from "../lib/constants";
 import { Trash2, Plus, Languages, Loader2 } from "lucide-react";
 import { useLingoContext } from "@lingo.dev/compiler/react";
-import { cn } from "@/lib/utils";
+import { cn } from "../lib/utils";
 
 interface InvoiceFormProps {
     invoice: InvoiceData;
@@ -30,11 +30,17 @@ export default function InvoiceForm({ invoice, setInvoice }: InvoiceFormProps) {
                 invoice.sellerName,
                 invoice.sellerDetails,
                 invoice.clientName,
-                ...invoice.items.map(item => item.description),
+                ...invoice.items.map((item: InvoiceItem) => item.description),
                 invoice.notes
             ].filter(Boolean);
 
-            if (stringsToTranslate.length === 0) return;
+            if (stringsToTranslate.length === 0) {
+                console.log("No content to translate.");
+                setIsTranslating(false);
+                return;
+            }
+
+            console.log(`Translating to ${targetLanguage}... Strings:`, stringsToTranslate);
 
             const response = await fetch(`http://localhost:60000/translations/${targetLanguage}`, {
                 method: 'POST',
@@ -44,6 +50,7 @@ export default function InvoiceForm({ invoice, setInvoice }: InvoiceFormProps) {
 
             if (response.ok) {
                 const data = await response.json();
+                console.log("Translation success:", data);
                 const dict = data.translations || {};
 
                 setInvoice((prev: InvoiceData) => ({
@@ -57,9 +64,12 @@ export default function InvoiceForm({ invoice, setInvoice }: InvoiceFormProps) {
                     })),
                     notes: dict[prev.notes] || prev.notes
                 }));
+            } else {
+                const errText = await response.text();
+                console.error("Translation server error:", response.status, errText);
             }
         } catch (error) {
-            console.error("Translation error:", error);
+            console.error("Translation fetch error:", error);
         } finally {
             setIsTranslating(false);
         }
@@ -81,7 +91,7 @@ export default function InvoiceForm({ invoice, setInvoice }: InvoiceFormProps) {
     const removeItem = (index: number) => {
         setInvoice({
             ...invoice,
-            items: invoice.items.filter((_, i) => i !== index)
+            items: invoice.items.filter((_, i: number) => i !== index)
         });
     };
 

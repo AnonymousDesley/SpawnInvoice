@@ -10,7 +10,7 @@
       "hash": "94dbf261e91f",
       "location": {
         "filePath": "components/InvoiceForm.tsx",
-        "line": 91,
+        "line": 101,
         "column": 16
       }
     },
@@ -24,7 +24,7 @@
       "hash": "24a60f6efeec",
       "location": {
         "filePath": "components/InvoiceForm.tsx",
-        "line": 105,
+        "line": 115,
         "column": 20
       }
     },
@@ -39,7 +39,7 @@
       "hash": "0db347c45380",
       "location": {
         "filePath": "components/InvoiceForm.tsx",
-        "line": 106,
+        "line": 116,
         "column": 20
       }
     },
@@ -54,7 +54,7 @@
       "hash": "20eace1a9826",
       "location": {
         "filePath": "components/InvoiceForm.tsx",
-        "line": 112,
+        "line": 122,
         "column": 20
       }
     },
@@ -68,7 +68,7 @@
       "hash": "b15ae310ecb9",
       "location": {
         "filePath": "components/InvoiceForm.tsx",
-        "line": 121,
+        "line": 131,
         "column": 20
       }
     },
@@ -83,7 +83,7 @@
       "hash": "f6659e43d8bb",
       "location": {
         "filePath": "components/InvoiceForm.tsx",
-        "line": 122,
+        "line": 132,
         "column": 20
       }
     },
@@ -98,7 +98,7 @@
       "hash": "4a7ff3f1ac6e",
       "location": {
         "filePath": "components/InvoiceForm.tsx",
-        "line": 129,
+        "line": 139,
         "column": 20
       }
     },
@@ -112,7 +112,7 @@
       "hash": "83215d5b8d11",
       "location": {
         "filePath": "components/InvoiceForm.tsx",
-        "line": 138,
+        "line": 148,
         "column": 28
       }
     },
@@ -169,7 +169,7 @@
       "hash": "5713b1e6e3d7",
       "location": {
         "filePath": "components/InvoiceForm.tsx",
-        "line": 196,
+        "line": 206,
         "column": 16
       }
     },
@@ -183,7 +183,7 @@
       "hash": "29346019e73a",
       "location": {
         "filePath": "components/InvoiceForm.tsx",
-        "line": 232,
+        "line": 242,
         "column": 16
       }
     },
@@ -197,7 +197,7 @@
       "hash": "028685c5bd59",
       "location": {
         "filePath": "components/InvoiceForm.tsx",
-        "line": 242,
+        "line": 252,
         "column": 16
       }
     },
@@ -211,7 +211,7 @@
       "hash": "44a0ba2360f9",
       "location": {
         "filePath": "components/InvoiceForm.tsx",
-        "line": 246,
+        "line": 256,
         "column": 24
       }
     },
@@ -225,7 +225,7 @@
       "hash": "dc43570a85a8",
       "location": {
         "filePath": "components/InvoiceForm.tsx",
-        "line": 268,
+        "line": 278,
         "column": 28
       }
     },
@@ -239,7 +239,7 @@
       "hash": "b3cd3234ab80",
       "location": {
         "filePath": "components/InvoiceForm.tsx",
-        "line": 260,
+        "line": 270,
         "column": 24
       }
     },
@@ -253,7 +253,7 @@
       "hash": "ad10e3ad4961",
       "location": {
         "filePath": "components/InvoiceForm.tsx",
-        "line": 274,
+        "line": 284,
         "column": 24
       }
     },
@@ -267,7 +267,7 @@
       "hash": "e97808d11a29",
       "location": {
         "filePath": "components/InvoiceForm.tsx",
-        "line": 289,
+        "line": 299,
         "column": 16
       }
     },
@@ -1010,7 +1010,7 @@
       "hash": "e0d6b19e6493",
       "location": {
         "filePath": "components/InvoiceForm.tsx",
-        "line": 93,
+        "line": 103,
         "column": 20
       }
     },
@@ -1038,7 +1038,7 @@
       "hash": "08948465eac7",
       "location": {
         "filePath": "components/InvoiceForm.tsx",
-        "line": 163,
+        "line": 173,
         "column": 28
       }
     },
@@ -1052,7 +1052,7 @@
       "hash": "fe40493e5bba",
       "location": {
         "filePath": "components/InvoiceForm.tsx",
-        "line": 174,
+        "line": 184,
         "column": 32
       }
     },
@@ -1066,7 +1066,7 @@
       "hash": "07ca1e34f04e",
       "location": {
         "filePath": "components/InvoiceForm.tsx",
-        "line": 189,
+        "line": 199,
         "column": 24
       }
     },
@@ -1122,13 +1122,13 @@
       "hash": "5dd2f3baf577",
       "location": {
         "filePath": "components/InvoiceForm.tsx",
-        "line": 160,
+        "line": 170,
         "column": 20
       }
     }
   },
   "stats": {
     "totalEntries": 80,
-    "lastUpdated": "2026-02-06T12:50:02.548Z"
+    "lastUpdated": "2026-02-06T13:12:18.731Z"
   }
 }
