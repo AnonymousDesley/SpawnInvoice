@@ -6,6 +6,7 @@ import { COUNTRIES, LANGUAGES, CURRENCIES } from "../lib/constants";
 import { Trash2, Plus, Languages, Loader2 } from "lucide-react";
 import { useLingoContext } from "@lingo.dev/compiler/react";
 import { cn } from "../lib/utils";
+import { translateInvoiceAction } from "../app/actions";
 
 interface InvoiceFormProps {
     invoice: InvoiceData;
@@ -13,7 +14,7 @@ interface InvoiceFormProps {
 }
 
 export default function InvoiceForm({ invoice, setInvoice }: InvoiceFormProps) {
-    const { locale, sourceLocale } = useLingoContext();
+    const { locale, sourceLocale, setLocale } = useLingoContext();
     const [isTranslating, setIsTranslating] = React.useState(false);
     const [targetLanguage, setTargetLanguage] = React.useState<string>(locale);
 
@@ -26,50 +27,14 @@ export default function InvoiceForm({ invoice, setInvoice }: InvoiceFormProps) {
         if (targetLanguage === sourceLocale) return;
         setIsTranslating(true);
         try {
-            const stringsToTranslate = [
-                invoice.sellerName,
-                invoice.sellerDetails,
-                invoice.clientName,
-                ...invoice.items.map((item: InvoiceItem) => item.description),
-                invoice.notes
-            ].filter(Boolean);
+            console.log(`Translating invoice content to ${targetLanguage} using AI...`);
+            const translatedInvoice = await translateInvoiceAction(invoice, targetLanguage);
+            setInvoice(translatedInvoice);
 
-            if (stringsToTranslate.length === 0) {
-                console.log("No content to translate.");
-                setIsTranslating(false);
-                return;
-            }
-
-            console.log(`Translating to ${targetLanguage}... Strings:`, stringsToTranslate);
-
-            const response = await fetch(`http://localhost:60000/translations/${targetLanguage}`, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ hashes: stringsToTranslate })
-            });
-
-            if (response.ok) {
-                const data = await response.json();
-                console.log("Translation success:", data);
-                const dict = data.translations || {};
-
-                setInvoice((prev: InvoiceData) => ({
-                    ...prev,
-                    sellerName: dict[prev.sellerName] || prev.sellerName,
-                    sellerDetails: dict[prev.sellerDetails] || prev.sellerDetails,
-                    clientName: dict[prev.clientName] || prev.clientName,
-                    items: prev.items.map((item: InvoiceItem) => ({
-                        ...item,
-                        description: dict[item.description] || item.description
-                    })),
-                    notes: dict[prev.notes] || prev.notes
-                }));
-            } else {
-                const errText = await response.text();
-                console.error("Translation server error:", response.status, errText);
-            }
+            console.log("AI Translation successful (Decoupled)");
         } catch (error) {
-            console.error("Translation fetch error:", error);
+            console.error("AI Translation failed:", error);
+            alert("AI translation failed. Please try again later.");
         } finally {
             setIsTranslating(false);
         }

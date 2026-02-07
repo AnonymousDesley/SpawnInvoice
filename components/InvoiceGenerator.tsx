@@ -1,8 +1,8 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { InvoiceData, InvoiceItem, CurrencyCode } from "@/lib/types";
-import { DEFAULT_COUNTRY } from "@/lib/constants";
+import { InvoiceData, InvoiceItem, CurrencyCode } from "../lib/types";
+import { DEFAULT_COUNTRY } from "../lib/constants";
 import InvoiceForm from "./InvoiceForm";
 import InvoicePreview from "./InvoicePreview";
 import Header from "./Header";
@@ -25,6 +25,21 @@ export default function InvoiceGenerator() {
         currency: DEFAULT_COUNTRY.currency as CurrencyCode, // Default
         notes: "",
         orientation: 'portrait',
+        labels: {
+            invoice: "Invoice",
+            billedTo: "Billed To",
+            dateIssued: "Date Issued",
+            dueDate: "Due Date",
+            description: "Description",
+            qty: "Qty",
+            price: "Price",
+            total: "Total",
+            subtotal: "Subtotal",
+            discount: "Discount",
+            tax: "Tax",
+            shipping: "Shipping",
+            notes: "Notes",
+        }
     });
 
     // Initial Setup - wait for client mount

@@ -22,4 +22,19 @@ export interface InvoiceData {
   currency: CurrencyCode;
   notes: string;
   orientation: 'portrait' | 'landscape';
+  labels: {
+    invoice: string;
+    billedTo: string;
+    dateIssued: string;
+    dueDate: string;
+    description: string;
+    qty: string;
+    price: string;
+    total: string;
+    subtotal: string;
+    discount: string;
+    tax: string;
+    shipping: string;
+    notes: string;
+  };
 }

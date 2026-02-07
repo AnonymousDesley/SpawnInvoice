@@ -1,9 +1,9 @@
 import React, { useRef } from "react";
-import { InvoiceData, InvoiceItem } from "@/lib/types";
+import { InvoiceData, InvoiceItem } from "../lib/types";
 import { Download, Loader2, Share2, Monitor, Smartphone, Layout } from "lucide-react";
-import { COUNTRIES } from "@/lib/constants";
+import { COUNTRIES } from "../lib/constants";
 import { useLingoContext } from "@lingo.dev/compiler/react";
-import { cn } from "@/lib/utils";
+import { cn } from "../lib/utils";
 
 interface InvoicePreviewProps {
     invoice: InvoiceData;
@@ -145,7 +145,7 @@ export default function InvoicePreview({ invoice, setInvoice }: InvoicePreviewPr
 
                     <div className="flex justify-between items-start mb-16">
                         <div>
-                            <h1 className="text-5xl font-bold tracking-tight text-[#1c1917] mb-2">Invoice</h1>
+                            <h1 className="text-5xl font-bold tracking-tight text-[#1c1917] mb-2">{invoice.labels.invoice}</h1>
                             <p className="text-[#a8a29e] font-mono text-lg">
                                 <span className="opacity-50 mr-1">#</span>{invoice.id}
                             </p>
@@ -161,18 +161,18 @@ export default function InvoicePreview({ invoice, setInvoice }: InvoicePreviewPr
                     <div className="grid grid-cols-2 gap-12 mb-16">
                         <div className="space-y-4">
                             <div>
-                                <h3 className="text-xs uppercase tracking-widest font-black text-stone-400 mb-2">Billed To</h3>
+                                <h3 className="text-xs uppercase tracking-widest font-black text-stone-400 mb-2">{invoice.labels.billedTo}</h3>
                                 <p className="font-bold text-xl text-[#1c1917]">{invoice.clientName || <span className="text-stone-300">Client Name</span>}</p>
                                 <p className="text-stone-600 font-bold">{invoice.clientCountry}</p>
                             </div>
                         </div>
                         <div className="flex justify-end gap-12 text-right">
                             <div>
-                                <h3 className="text-xs uppercase tracking-widest font-black text-stone-400 mb-2">Date Issued</h3>
+                                <h3 className="text-xs uppercase tracking-widest font-black text-stone-400 mb-2">{invoice.labels.dateIssued}</h3>
                                 <p className="font-bold text-lg text-[#1c1917]">{formatDate(invoice.date)}</p>
                             </div>
                             <div>
-                                <h3 className="text-xs uppercase tracking-widest font-black text-stone-400 mb-2">Due Date</h3>
+                                <h3 className="text-xs uppercase tracking-widest font-black text-stone-400 mb-2">{invoice.labels.dueDate}</h3>
                                 <p className="font-bold text-lg text-[#1c1917]">{formatDate(invoice.dueDate)}</p>
                             </div>
                         </div>
@@ -181,10 +181,10 @@ export default function InvoicePreview({ invoice, setInvoice }: InvoicePreviewPr
                     <table className="w-full mb-12">
                         <thead>
                             <tr className="border-b-2 border-stone-800/10">
-                                <th className="text-left py-4 font-black text-xs uppercase tracking-widest text-stone-500">Description</th>
-                                <th className="text-right py-4 font-black text-xs uppercase tracking-widest text-stone-500">Qty</th>
-                                <th className="text-right py-4 font-black text-xs uppercase tracking-widest text-stone-500">Price</th>
-                                <th className="text-right py-4 font-black text-xs uppercase tracking-widest text-stone-500">Total</th>
+                                <th className="text-left py-4 font-black text-xs uppercase tracking-widest text-stone-500">{invoice.labels.description}</th>
+                                <th className="text-right py-4 font-black text-xs uppercase tracking-widest text-stone-500">{invoice.labels.qty}</th>
+                                <th className="text-right py-4 font-black text-xs uppercase tracking-widest text-stone-500">{invoice.labels.price}</th>
+                                <th className="text-right py-4 font-black text-xs uppercase tracking-widest text-stone-500">{invoice.labels.total}</th>
                             </tr>
                         </thead>
                         <tbody className="divide-y divide-stone-100">
@@ -202,31 +202,31 @@ export default function InvoicePreview({ invoice, setInvoice }: InvoicePreviewPr
                     <div className="flex justify-end pt-8 border-t border-stone-800/10">
                         <div className="w-72 space-y-4">
                             <div className="flex justify-between text-stone-600 font-bold">
-                                <span>Subtotal</span>
+                                <span>{invoice.labels.subtotal}</span>
                                 <span>{formatCurrency(subtotal)}</span>
                             </div>
 
                             {invoice.discount > 0 && (
                                 <div className="flex justify-between text-stone-600 font-bold">
-                                    <span>Discount ({invoice.discount}%)</span>
+                                    <span>{invoice.labels.discount} ({invoice.discount}%)</span>
                                     <span className="text-red-600">-{formatCurrency(discountAmount)}</span>
                                 </div>
                             )}
 
                             <div className="flex justify-between text-stone-500 font-bold text-sm">
-                                <span>Tax ({invoice.taxRate}%)</span>
+                                <span>{invoice.labels.tax} ({invoice.taxRate}%)</span>
                                 <span>{formatCurrency(taxAmount)}</span>
                             </div>
 
                             {invoice.shipping > 0 && (
                                 <div className="flex justify-between text-stone-500 font-bold text-sm">
-                                    <span>Shipping</span>
+                                    <span>{invoice.labels.shipping}</span>
                                     <span>{formatCurrency(shippingAmount)}</span>
                                 </div>
                             )}
 
                             <div className="flex justify-between font-black text-3xl text-[#1c1917] pt-4">
-                                <span>Total</span>
+                                <span>{invoice.labels.total}</span>
                                 <span>{formatCurrency(total)}</span>
                             </div>
                         </div>
@@ -234,15 +234,15 @@ export default function InvoicePreview({ invoice, setInvoice }: InvoicePreviewPr
 
                     {invoice.notes && (
                         <div className="mt-24 p-8 bg-stone-50 rounded-2xl border border-stone-100">
-                            <h4 className="text-xs font-black text-[#a8a29e] mb-3 uppercase tracking-widest">Notes</h4>
+                            <h4 className="text-xs font-black text-[#a8a29e] mb-3 uppercase tracking-widest">{invoice.labels.notes}</h4>
                             <p className="text-[#57534e] text-sm leading-relaxed">{invoice.notes}</p>
                         </div>
                     )}
 
                     <footer className="mt-32 pt-8 border-t border-stone-100 flex justify-between items-center text-[10px] text-[#d6d3d1] uppercase tracking-widest font-bold">
-                        <div>SpawnInvoice</div>
-                        <div>Generated with AI Technology</div>
-                        <div>Page 1 of 1</div>
+                        <div></div>
+                        <div>Generated with SpawnInvoice</div>
+                        <div></div>
                     </footer>
                 </div>
             </div>
