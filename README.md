@@ -4,6 +4,8 @@
 
 Built for the **Lingo.dev Hackathon 2026**, this project demonstrates how AI-powered localization can solve real-world problems for freelancers and small businesses working across borders.
 
+# Demo video: https://x.com/Softweird237/status/2020185356927467675?s=20
+
 ---
 
 ## 🚨 The Problem
@@ -53,7 +55,7 @@ All powered by modern i18n tools and **Lingo.dev AI localization**.
 |------|------------|
 | Frontend | React / Next.js |
 | Styling | Tailwind CSS |
-| Internationalization | i18next (or react-intl) |
+| Internationalization | **Lingo.dev**  |
 | Localization AI | **Lingo.dev** |
 | Currency & Date Formatting | JavaScript Intl API |
 | PDF Export | html2pdf.js |
