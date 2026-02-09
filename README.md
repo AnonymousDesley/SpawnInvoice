@@ -55,7 +55,7 @@ All powered by modern i18n tools and **Lingo.dev AI localization**.
 |------|------------|
 | Frontend | React / Next.js |
 | Styling | Tailwind CSS |
-| Internationalization | **Lingo.dev**  |
+| Internationalization | i18next  |
 | Localization AI | **Lingo.dev** |
 | Currency & Date Formatting | JavaScript Intl API |
 | PDF Export | html2pdf.js |
