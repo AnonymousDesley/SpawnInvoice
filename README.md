@@ -64,7 +64,7 @@ All powered by modern i18n tools and **Lingo.dev AI localization**.
 
 ---
 
-## 🤖 How Lingo.dev Is Used
+## 🤖 How Lingo.dev Is Used on This project
 
 Lingo.dev powers the **translation and localization workflow** for the app.
 
